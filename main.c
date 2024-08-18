@@ -1,6 +1,12 @@
 #include <stdio.h>
+int op;
 
+void menu() {
+        printf("1- Insert\n");
+        printf("2- ShowList\n");
+        printf("3- Exit\n");
+}
 int main(void) {
-    printf("Hello, World!\n");
+    menu();
     return 0;
 }
